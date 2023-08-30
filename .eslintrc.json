@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "quotes": ["error", "single"],
+    "comma-spacing": 1,
+    "semi":"error",
+    "indent": ["error", 2],
+    "no-multi-spaces": ["error"]
+  }
 }
