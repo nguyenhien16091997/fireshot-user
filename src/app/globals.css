@@ -78,6 +78,9 @@
   padding: 0;
   margin: 0;
 }
+html {
+  font-size: 14px;
+}
 
 html,
 body {
@@ -103,5 +106,11 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media (max-width: 1199px) {
+  html {
+    font-size: 10px;
   }
 }
